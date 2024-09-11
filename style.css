@@ -1,0 +1,568 @@
+body {
+  font-family: cursive;
+  font-weight: 1500px;
+  max-width: 100%;
+  margin: 0 auto;
+  color: #000000;
+  width: 100%;
+}
+
+nav {
+  /*muy utilizado en las apps de responsive*/
+  width: 100%;
+  height: 200px;
+  background-color:#92e27a;
+
+}
+
+nav ul li {
+  list-style-type: none;
+  /*quitar viñetas*/
+  display: inline-block;
+  /*cada opcion se ve una al lado del otro*/
+
+  transition: 0.8s all;
+  /*tiempo del movimiento al pasar el mouse por encima*/
+  padding: 18px 20px;
+  padding-right: 70px;
+  padding-top: 1%;
+  font-size: 150%;
+}
+
+nav ul li:hover {
+  background-color: #fff;
+  
+}
+
+nav ul li a {
+  /*agregar estilos a los hipervinculos*/
+  text-decoration: none;
+  /* quitar la linea de los hipervinculos*/
+  color: #000000;
+
+
+
+}
+
+/* al ser visitado cambia a este color*/
+a:visited {
+  color: #140b0b;
+}
+
+/* al dar click en el enlace cambia a este color*/
+a:active {
+  color: #e26fe2;
+}
+
+/*ir al indes y este linea se agrega el html <a href="index.html><img class="img-logo"*/
+/*estilizamos el logo*/
+.img-logo {
+  width: 110px;
+  padding-top: 30px;
+  padding-left: 0%;
+  padding-right: 600px;
+}
+
+nav ul {
+  padding-top: 110px;
+  /*para que el menubaje un poco de arriba  hacia abajo*/
+  float: right;
+  /*ubica los menus de manera flotante a la derecha*/
+  /*volver al  indes y desconectar el logo principal*/
+}
+
+.banner {
+  max-width:100%;
+  /*para que se ajuste al tamaño del body*/
+  width: 100%;
+}
+
+.ft-articulo {
+  /*ambos en linea y bloque*/
+  display: inline-block;
+  height: 280px;
+}
+
+/*estilizar el boton */
+.boton-container {
+  text-align: center;
+  background-color: peachpuff;
+  /*centrarse en el article*/
+  margin: 0 auto;
+
+}
+
+.boton-container a {
+  text-decoration: none;
+  /*ninguno adorno al boton*/
+  color:black;
+
+}
+
+.btn {
+  background-color: peachpuff;
+  border: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/*para darle al boton al pasar el puntero del mouse*/
+.boton-container :hover {
+  background-color: peachpuff;
+
+}
+
+/*estilizar la primera imagen,o sea al plato de las diez resetas para las fiestas navideñas*/
+.art-img {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+  gap: 30px;
+}
+
+
+h2 {
+  margin: 0;;
+  /*subrayar el titulo de h2 " recetas del mundo" delgadito*/
+  text-align: center;
+  color: black;
+}
+
+
+article {
+  background-color:white;
+  max-width:100%;
+  width: 100%;
+  padding-top: 5%;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  border: 10px solid;
+  
+}
+.receta5 h1{
+  border-radius: 3cm;
+}
+.receta6 h1{
+  border-radius: 3cm;
+}
+.receta7 h1{
+  border-radius: 3cm;
+}
+.receta5 h2{
+  border-radius: 3cm;
+}
+.receta6 h2{
+  border-radius: 3cm;
+}
+.receta7 h2{
+  border-radius: 3cm;
+}
+.title1{
+  background-color: peachpuff;
+  border-radius: 3cm;
+}
+
+iframe {
+  float: left;
+  width: 90%;
+  margin-top: 80px;
+  padding-left: 60%;
+  border: #fff 16px solid;
+  padding-bottom: 30%;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.columna {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+a {
+  text-align: center;
+}
+.main-content .values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border: #fff 5px solid;
+
+}
+.main-content{
+  border: #fff 5px solid;
+}
+.mid{
+  background-color:white;
+  width: 100%;
+  
+}
+.mid p{
+  font-size: 16px;
+  color:yellowgreen;
+}
+.image1{
+  justify-content: center;
+  align-items: center;
+width: 30%;
+margin-top: 0%;
+margin-left: 35%; 
+}
+.formulario{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  color: #ea6e39;
+  height: 800px;
+  font-size: 25px;
+
+  background-color:peachpuff;
+  border: 6px solid black;
+  padding: 8px;
+  border-radius: 2cm;
+}
+
+section{
+  background-color:white;
+}
+.font{
+  background-color:white;
+}
+
+.formulario label{
+  color: black;
+  border-radius: 5cm;
+}
+
+textarea{
+  border: 2px solid #ea6e39;
+}
+input{
+  border:3px solid  #ea6e39;
+  border-radius: 3cm;
+  width: 150px;
+  height: 30px;
+}
+select{
+  border: 3px solid #ea6e39;
+}
+input[type="submit"]:hover{
+  background-color: #92e27a;
+  
+}
+.contenedor-menu{
+display: grid;
+width: 100%;
+margin-top: 50px;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 1fr 1fr;
+grid-auto-rows: 150px;
+padding: 20px;
+grid-gap: 10px;
+
+}
+.image89{
+  margin-top: 100px;
+}
+.comida{
+  width: 90%;
+height: 50%;
+object-fit: cover;
+}
+
+.novedades{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 1fr ;
+grid-auto-rows: 150px;
+padding: 20px;
+grid-gap: 20px;
+border: #000000 5px solid;
+border-radius: 2cm;
+}
+.novedad{
+  width: 70%;
+height: 50%;
+object-fit: cover;
+border-radius: 8px;
+margin: 50px;
+border: #000000 5px solid;
+
+}
+.novedades h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.novedades img{
+  border-radius: 3cm;
+}
+.recetas89 img{
+  border-radius: 3cm;
+}
+.recetas img{
+  border-radius: 3cm;
+}
+.image89 h2{
+  color: #000000;
+}
+.contenedor-menu{
+  border: 5px solid;
+}
+.comida{
+  border: #000000 5px solid;
+}
+
+.main-content{
+  background-color: peachpuff;
+  border: #000000 10px solid;
+}
+.main-content p{
+  color: black;
+
+}
+
+.main-content h1{
+  color: black;
+}
+.negocio{
+  background-color: peachpuff; 
+}
+.negocio h1{
+  color: black;
+}
+.valor{ 
+  padding-left: 0%;
+}
+.imgnegocio{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: 1fr;
+
+
+}
+.negocioimg{
+  width: 70%;
+height: 70%;
+border-radius: 3cm;
+margin: 100px; 
+border: black 10px solid;
+
+}
+
+.negocioimg1{
+  width: 150%;
+height: 70%;
+border-radius: 3cm;
+margin: 100px; 
+border: black 10px solid;
+
+}
+.texto{
+  text-align: center;
+}
+footer {
+  background-color: peachpuff;
+  color: black  ;
+  clear: both; /* Linea para cargar y limpiar elementos no flotantes, ojo que hay que ponerla*/
+  line-height: 30px;
+  text-align: center;
+  padding: 10px 0;
+  padding-left: 200px;
+  display: flex;
+  border-radius: 2rem;
+
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 25px;
+}
+
+.footer-links h4 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 25px;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.footer-links ul li a:hover {
+  color: black;
+  padding-left: 6px;
+}
+
+.social-link p {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: black;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: brown;
+}
+.textos{
+  color: #000000;
+}
+.mision{
+  background-color: #92e27a;
+  border: #000000 5px solid;
+}
+.vision{
+  background-color: peachpuff;
+  padding-right: 7%;
+  border: #000000 5px solid;
+}
+.valores{
+  background-color: #92e27a;
+  border: #000000 5px solid;
+}
+.recetas{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 1fr ;
+grid-auto-rows: 150px;
+padding: 20px;
+grid-gap: 20px;
+border: #000000 5px solid;
+}
+.receta1{
+  width: 70%;
+height: 50%;
+object-fit: cover;
+border-radius: 8px;
+margin: 50px;
+border: #000000 5px solid;
+
+}
+.receta h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.novedades{
+  background-color: peachpuff;
+
+}
+.novedades p{
+  font-size: 200%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.novedades3{
+  background-color: #000000;
+}
+.recetas{
+  background-color: #92e27a;
+  border-radius: 3cm;
+}
+.promo1{
+  background-color: #000000;
+}
+.novedad1 p{
+  color: #000000;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.recetas89 h1{
+  color: #000000;
+  font-size: 400%;
+  border: #000000 3px solid;
+  background-color: peachpuff;
+
+}
+.recetas89 h2{
+  color: #000000;
+  font-size: 300%;
+  border: #000000 5px solid;
+  background-color:peachpuff;
+}
+.recetas89 p{
+  color: #000000;
+font-size: 200%;
+}
+.recetas89{background-color:#92e27a;}
+ .title1 h1{
+  color: #000000;
+}
+.promo1 h1{
+  font-size: 250%;
+}
+.promo1 p{
+  font-size: 230%;
+}
+.promo p{
+  font-size: 200%;
+}
+.promo h2{
+  font-size: 200%;
+}
+.main-content p{
+  font-size: 200%;
+}
+.main-content h1{
+  font-size: 400%;
+}
+.main-content h2{
+  font-size: 200%;
+}
+.title1{
+  border: #000000 3px solid;
+}
+.boton{
+  
+    border-radius: 3cm;
+    background-color: #92e27a;
+    height: 30px;
+    text-align: center;
+    width: 150px;
+    margin-left: 45%;
+    margin-top: 25px;
+    width: 150px;
+}
+.promo2 h1{
+  font-size: 250%;
+  color: #92e27a;
+}
+.promo2 p{
+  font-size: 230%;
+}
+.promo1 h1{
+  font-size: 250%;
+}
+.promo2 h2{
+  font-size: 230%;
+}
+.promo2 img{
+  width: 40%;
+  border-radius: 3cm;
+  margin-left: 30%;
+}
